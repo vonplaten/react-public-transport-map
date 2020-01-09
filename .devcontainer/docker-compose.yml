@@ -1,0 +1,6 @@
+version: '2.3'
+services:
+  mynodedev:
+    volumes:
+      - C:\Users\casi\dev\react-public-transport-map\workspace:/usr/src/app
+    command: sleep infinity 

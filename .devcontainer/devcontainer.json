@@ -1,0 +1,17 @@
+{
+    "name": "My Node.js",
+	"dockerComposeFile": [
+		"../docker-compose.yml",
+		"docker-compose.yml"
+	],
+    "service": "mynodedev",
+    "workspaceFolder": "/usr/src/app",
+    "remoteUser": "node",
+    "settings": {
+        "terminal.integrated.shell.linux": "/bin/bash"
+    },
+    "shutdownAction": "stopCompose",
+    "extensions": [
+        "dbaeumer.vscode-eslint"
+    ]
+}
